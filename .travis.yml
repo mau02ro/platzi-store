@@ -14,6 +14,7 @@ script:
   - yarn build
 
 notifications:
+  slack: mau02ro:ySKpw6qB6JlrUgYEKWjvHaKG 
   email:
     recipients:
       - maurojhg2019developer@gmail.com
