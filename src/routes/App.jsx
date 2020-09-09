@@ -7,6 +7,7 @@ import NotFound from '../containers/NotFound';
 
 const App = () => (
   <BrowserRouter>
+  	{console.log('OK')}
     <Layout>
       <Switch>
         <Route  path="/" component={Home} />
